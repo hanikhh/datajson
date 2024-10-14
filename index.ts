@@ -38,27 +38,26 @@ let data = [
 //TODO 3 : dapatkan data dengan alamat New York
 //TODO 4 : dapatkan data dengan umur >= 30
 
-//TODO 1: Get all data
+//TODO 1
 const getAllData = () => {
 	return data;
 };
 
-//TODO 2: Get data by specific name
+//TODO 2
 const getDataByName = (name) => {
 	return data.filter(person => person.name === name);
 };
 
-//TODO 3: Get data with address in New York
+//TODO 3
 const getDataByCity = (city) => {
 	return data.filter(person => person.city === city);
 };
 
-//TODO 4: Get data with age >= 30
+//TODO 4
 const getDataByAge = (age) => {
 	return data.filter(person => person.age >= age);
 };
 
-// Usage
 console.log("All data:", getAllData());
 console.log("Data for 'Emily Davis':", getDataByName('Jane Smith'));
 console.log("Data for New York:", getDataByCity('New York'));
